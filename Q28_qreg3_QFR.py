@@ -73,7 +73,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -297,7 +297,7 @@ BEST hparam: nq= 6 | K (Gaussian σ): 2.0 | P(anc=1): 0.608739 | cos(bias, freq_
   K=8  P(post)=0.613286  cos=0.947133  NEXT=(4, 5, 15, 16, 21, 22, 23)
   K=16  P(post)=0.664406  cos=0.893692  NEXT=(4, 9, 12, 14, 17, 19, 22)
 --- glavna predikcija (QFR low-pass spektralna regresija) ---
-predikcija NEXT: (4, 7, 12, 14, 17, 19, 22)
+predikcija NEXT: (4, 7, x, y, z, 19, 22)
 """
 
 
